@@ -1,8 +1,8 @@
 {
   "hosting": {
-    "rewrties":[{
+    "rewrites": [{
       "source": "**",
-      "functions":"api"
+      "function": "api"
     }],
     "public": "public",
     "ignore": [
@@ -16,13 +16,5 @@
       "host": "localhost",
       "port": "5554"
     }
-  },
-  "functions": {
-    "ignore": [
-      "node_modules",
-      ".git",
-      "firebase-debug.log",
-      "firebase-debug.*.log"
-    ]
   }
 }
